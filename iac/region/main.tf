@@ -39,7 +39,7 @@ resource "random_string" "admin_password" {
   length      = 15
   special     = true
   upper       = true
-  number      = true
+  numeric      = true
   min_special = 1
 }
 
