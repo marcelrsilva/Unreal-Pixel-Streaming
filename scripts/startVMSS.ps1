@@ -8,9 +8,9 @@ Param (
     [Parameter(Position=1, Mandatory=$false, HelpMessage = "The streaming port start for multiple instances, default 8888")]
     [int] $streamingPort = 8888,
     [Parameter(Position=2, Mandatory=$false, HelpMessage = "The resolution width of the 3D app, default 1920")]
-    [int] $resolutionWidth = 1920,
+    [int] $resolutionWidth = 1280,
     [Parameter(Position=3, Mandatory=$false, HelpMessage = "The resolution height of the 3D app, default 1080")]
-    [int] $resolutionHeight = 1080,
+    [int] $resolutionHeight = 720,
     [Parameter(Position=4, Mandatory=$false, HelpMessage = "The name of the 3D app, default PixelStreamingDemo")]
     [string] $pixel_stream_application_name = "PixelStreamingDemo"
 )
