@@ -50,7 +50,7 @@ resource "random_string" "base_id" {
   length  = 5
   special = false
   upper   = false
-  number  = true
+  numeric  = true
 }
 
 data "azurerm_client_config" "current" {}
